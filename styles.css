@@ -1,0 +1,133 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url(./imagenes/fondo.png);
+  padding: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+a{
+  text-decoration: none; 
+  color: white;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.boton{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 200px;
+  height: 50px;
+  border: inset 5px rgb(110, 7, 9);
+  background-color: red;
+  border-radius: 5px;
+  color: white;
+  font-size: 30px;
+  padding-bottom: 5px;
+}
+
+.pokemon {
+  height: 200px;
+  top: 0;
+  position:absolute;
+  right: 32%;
+}
+
+.img1 {
+  position:absolute;
+  bottom:0px;
+  left: 30px;
+  height: 280px;
+}
+
+/*cachucha roja*/
+.img2 {
+  height:400px;
+  position:absolute;
+  bottom:0px;
+  left:200px;
+}
+
+/*dragon azul*/
+.img3 {
+  position:absolute;
+  bottom:110px;
+  right:0px;
+  height: 600px;
+  width: 500px;
+}
+
+/*ropa negra*/
+.img4 {
+  position:absolute;
+  bottom: 0px;
+  right: 420px;
+  height: 500px;
+}
+/*mujer*/
+.img5 {
+  position:absolute;
+  bottom: 0;
+  right: 20px;
+  height: 400px;
+}
+
+.img6 {
+  position:absolute;
+  bottom: 0px;
+  right: 420px;
+  height: 500px;
+}
+
+.img7 {
+  position:absolute;
+  top: 10px;
+  left:20px;
+  height: 420px;
+}
+
+
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    box-sizing: border-box;
+    background-color: rgba(130, 128, 128, 0.363);
+    margin: 0;
+    padding: 20px;
+
+}
+
+.card {
+    border: 5px solid rgb(243, 208, 10);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+    width: 200px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(216, 216, 216, 0.749);
+}
+
+
+.card h2 {
+  color: rgb(233, 22, 22);
+}
+
+#searchInput{
+  width: 300px;
+  height: 25px;
+  margin-left: 25%;
+  border-radius: 25px;
+  padding: 5px;
+  padding-left: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
