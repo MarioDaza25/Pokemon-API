@@ -5,9 +5,14 @@ async function fetchData(nombre) {
     const data = await response.json();
     return data;
   } catch (error) {
-    throw 'Error al obtener los datos';
+    throw 'Error al obtener los datos    ';
   }
 }
+
+
+
+
+
 
 function createCard(pokemon) {
   const cardContainer = document.createElement('div');
@@ -36,6 +41,7 @@ function createCard(pokemon) {
 
   return cardContainer;
 }
+
 
 async function displayData(nombre) {
   try {

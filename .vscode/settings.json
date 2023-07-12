@@ -1,0 +1,40 @@
+{
+    "editor.autoClosingBrackets": "always",
+    "workbench.activityBar.visible": true,
+    
+    "workbench.colorTheme": "GitHub Dark Mode",
+    "workbench.editor.decorations.colors": true,
+    "workbench.activityBar.iconClickBehavior": "toggle",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.sideBar.location": "right",
+    "workbench.statusBar.visible": true,
+    "workbench.tips.enabled": true,
+    "workbench.tree.indent": 8,
+    "workbench.tree.renderIndentGuides": "none",
+    "breadcrumbs.enabled": true,
+    "breadcrumbs.icons": true,
+    "screencastMode.fontSize": 56,
+    "screencastMode.mouseIndicatorSize": 20,
+    "breadcrumbs.symbolPath": "off",
+    "editor.codeActionWidget.showHeaders": true,
+    "editor.codeLens": true,
+    "dart.lineLength": 0,
+    "material-icon-theme.files.color": "#90a",
+    "material-icon-theme.activeIconPack": "angular",
+    "code-runner.showStopIconInEditorTitleMenu": true,
+    "code-runner.showRunIconInEditorTitleMenu": true,
+    "search.actionsPosition": "right",
+    "search.decorations.badges": true,
+    "debug.allowBreakpointsEverywhere": true,
+    "debug.autoExpandLazyVariables": false,
+    "extensions.closeExtensionDetailsOnViewChange": false,
+    "editor.formatOnPaste": true,
+    "editor.formatOnType": true,
+    "editor.formatOnSave": true,
+    "files.exclude": {
+        ".git": true,
+        "**/.git": false
+    },
+   
+   
+}
